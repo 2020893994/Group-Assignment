@@ -26,11 +26,12 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(308, 85)
+        Me.Button1.Location = New System.Drawing.Point(284, 84)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
@@ -63,11 +64,21 @@ Partial Class Form1
         Me.CheckedListBox1.Size = New System.Drawing.Size(120, 89)
         Me.CheckedListBox1.TabIndex = 3
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(454, 83)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(114, 23)
+        Me.Button2.TabIndex = 4
+        Me.Button2.Text = "Clear"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Label1)
@@ -83,4 +94,5 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents CheckedListBox1 As CheckedListBox
+    Friend WithEvents Button2 As Button
 End Class

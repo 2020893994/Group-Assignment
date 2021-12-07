@@ -27,7 +27,7 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(339, 170)
+        Me.Button1.Location = New System.Drawing.Point(341, 183)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(116, 23)
         Me.Button1.TabIndex = 0
